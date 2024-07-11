@@ -760,7 +760,11 @@ address.footer-contact-link { max-width: 30ch; }
   transition: var(--transition-1);
 }
 
-.social-link:is(:hover, :focus) { color: var(--blue-crayola); }
+.social-link:is(:hover, :focus) { 
+  color: var(--blue-crayola); 
+}
+
+
 
 
 
@@ -774,6 +778,17 @@ address.footer-contact-link { max-width: 30ch; }
  * responsive for larger than 575px screen
  */
 
+
+ @media (min-width: 500px) {
+  .header.active {
+    position: fixed;
+    top: -90px;
+    background-color: var(--white);
+    border-block-start: 1px solid var(--cultured);
+    box-shadow: var(--shadow-1);
+    animation: slideIn 0.25s var(--cubic-out) forwards;
+  }
+ }
 
 @media (min-width: 326px) {
   .app-content{
