@@ -335,7 +335,7 @@ body.active { overflow: hidden; }
 
 .header.active {
   position: fixed;
-  top: -66px;
+  top: -95px;
   background-color: var(--white);
   border-block-start: 1px solid var(--cultured);
   box-shadow: var(--shadow-1);
@@ -779,16 +779,6 @@ address.footer-contact-link { max-width: 30ch; }
  */
 
 
- @media (min-width: 500px) {
-  .header.active {
-    position: fixed;
-    top: -90px;
-    background-color: var(--white);
-    border-block-start: 1px solid var(--cultured);
-    box-shadow: var(--shadow-1);
-    animation: slideIn 0.25s var(--cubic-out) forwards;
-  }
- }
 
 @media (min-width: 326px) {
   .app-content{
@@ -816,15 +806,7 @@ address.footer-contact-link { max-width: 30ch; }
       height: auto;
     }
   
-    .header.active {
-      position: fixed;
-      top: -80px;
-      background-color: var(--white);
-      border-block-start: 1px solid var(--cultured);
-      box-shadow: var(--shadow-1);
-      animation: slideIn 0.25s var(--cubic-out) forwards;
-    }
-
+    
  }
 
 @media (min-width: 575px) {
